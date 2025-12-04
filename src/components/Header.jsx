@@ -48,7 +48,7 @@ const Header = () => {
         <div className="flex items-center"> 
           <Link to="/" aria-label="Ir a la página de inicio">
             <img 
-              src="./public/Logo.png" 
+              src="./public/logo.png" 
               alt="GHOST Logo de la Tienda" 
               className="h-8 sm:h-10 w-auto" 
             />
@@ -122,7 +122,7 @@ const Header = () => {
           
           <div className="text-6xl text-[#8005A5] text-center mb-8 border-b border-gray-700 pb-4">
              <img 
-               src="./public/Logo.png" 
+               src="./public/logo.png" 
                alt="GHOST Logo de la Tienda" 
                className="h-12 w-auto mx-auto" 
              />
@@ -183,5 +183,6 @@ const Header = () => {
 };
 
 export default Header;
+
 
 
