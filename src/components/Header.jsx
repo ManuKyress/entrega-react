@@ -96,7 +96,7 @@ const Header = () => {
             <Link to="/carrito" aria-label="Ver carrito">
               <BagIcon className="w-6 h-6 text-[#8005A5] hover:opacity-70 transition-opacity" />
               {contadorEnCarrito > 0 && (
-                <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center ring-2 ring-white">
+                <span className="absolute -top-2 -right-2 bg-[#8005A5] text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center ring-2 ring-white">
                   {contadorEnCarrito}
                 </span>
               )}
@@ -183,6 +183,7 @@ const Header = () => {
 };
 
 export default Header;
+
 
 
 
