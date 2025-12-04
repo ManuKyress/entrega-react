@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <ul className={styles.footerNav}>
         <li>
-          <a href="#" className={styles.footerLink}>Nosotros</a>
+          <a href="./pages/Nosotros.jsx" className={styles.footerLink}>Nosotros</a>
         </li>
         <li>
           <a href="#" className={styles.footerLink}>FAQ</a>
@@ -26,3 +26,4 @@ const Footer = () => {
 
 
 export default Footer;
+
