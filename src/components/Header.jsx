@@ -48,7 +48,7 @@ const Header = () => {
         <div className="flex items-center"> 
           <Link to="/" aria-label="Ir a la página de inicio">
             <img 
-              src="./Logo.png" 
+              src="./public/Logo.png" 
               alt="GHOST Logo de la Tienda" 
               className="h-8 sm:h-10 w-auto" 
             />
@@ -183,4 +183,5 @@ const Header = () => {
 };
 
 export default Header;
+
 
