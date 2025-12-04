@@ -62,7 +62,7 @@ const Login = () => {
                     href="#"
                     className="font-semibold text-gray-900 hover:text-gray-700"
                   >
-                    Olvidaste la contraseña?
+                    Olvidé la contraseña
                   </a>
                 </div>
               </div>
@@ -102,5 +102,6 @@ const Login = () => {
     </>
   );
 };
+
 
 export default Login;
