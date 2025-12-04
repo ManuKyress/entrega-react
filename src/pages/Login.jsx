@@ -89,13 +89,7 @@ const Login = () => {
           </form>
 
           <p className="mt-10 text-center text-sm/6 text-gray-600">
-            No estas registrado?{" "}
-            <a
-              href="#"
-              className="font-semibold text-gray-900 hover:text-gray-700"
-            >
-              Hacelo aca
-            </a>
+            Credenciales: admin - 1234  / maria - 1234
           </p>
         </div>
       </div>
@@ -105,3 +99,4 @@ const Login = () => {
 
 
 export default Login;
+
