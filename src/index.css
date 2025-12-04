@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  max-width: 70%;
+  margin: 0 auto;
+}

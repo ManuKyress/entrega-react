@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  flex-basis: 20%; 
+  font-size: 24px;
+  font-weight: bold;
+  color: #8005A5;
+}
+
+.navbarContainer {
+  flex-basis: 60%; 
+  text-align: center;
+}
+
+.iconsContainer {
+  flex-basis: 20%; 
+  display: flex;
+  justify-content: flex-end; 
+  gap: 20px; 
+}
+
+.iconoDeCarrito {
+  position: relative;
+  cursor: pointer;
+}
+
+.contadorDeCarrito {
+  position: absolute;
+  top: -8px; 
+  right: -10px; 
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.icono {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.login {
+  font-size: 15px;
+  font-weight: bold;
+  color: #8005A5;
+  border-radius: 5px;
+}
