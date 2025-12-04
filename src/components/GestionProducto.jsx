@@ -149,7 +149,7 @@ const GestionProductos = () => {
       )}
 
       {mostrarForm && (
-        <div className="fixed inset-0 bg-black/50 z-[101] flex items-center justify-center p-4">
+        <div className="mt-10 p-6 bg-white rounded-xl shadow-lg border border-gray-100">
           <FormProducto
             productoInicial={productoSeleccionado || {}}
             modo={modoFormulario}
@@ -162,4 +162,5 @@ const GestionProductos = () => {
 };
 
 export default GestionProductos;
+
 
