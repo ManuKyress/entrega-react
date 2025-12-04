@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       <ul className={styles.footerNav}>
         <li>
-          <a href="/nosotros" className={styles.footerLink}>Nosotros</a>
+          <Link to="/nosotros" className={styles.footerLink}>Nosotros</Link>
         </li>
         <li>
-          <a href="/Faqs" className={styles.footerLink}>FAQ</a>
+          <Link to="/Faqs" className={styles.footerLink}>FAQ</Link>
         </li>
         <li>
           <a href="#" className={styles.footerLink}>Política de Privacidad</a>
@@ -26,5 +26,6 @@ const Footer = () => {
 
 
 export default Footer;
+
 
 
