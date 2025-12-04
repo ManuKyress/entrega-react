@@ -10,10 +10,10 @@ const USUARIOS_FAKE = [
   },
   { 
     id: 2, 
-    usuario: 'maria', 
+    usuario: 'manu', 
     contrasenia: '1234', 
     rol: 'usuario',
-    nombre: 'Maria'
+    nombre: 'Manu'
   }
 ];
 
@@ -48,5 +48,6 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   ); 
 }
+
 
 export const useAuthContext = () => useContext(AuthContext);
