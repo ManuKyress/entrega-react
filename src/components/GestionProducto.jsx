@@ -112,7 +112,6 @@ const GestionProductos = () => {
         <div className="fixed inset-0 bg-black/60 z-[100] flex items-center justify-center p-4 backdrop-blur-sm">
           <div className="bg-white rounded-xl max-w-md w-full p-8 shadow-2xl transform scale-100 transition-transform duration-300">
             
-            {/* Encabezado del Modal */}
             <div className="flex items-start gap-4 mb-6">
               <div className="bg-red-100 p-3 rounded-full flex-shrink-0">
                 <svg className="w-6 h-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -127,7 +126,7 @@ const GestionProductos = () => {
             
             <div className="mb-8">
               <p className="text-gray-700">
-                ¿Estás **seguro** que querés eliminar el producto <span className="font-extrabold text-red-600">"{productoAEliminar.nombre}"</span>?
+                ¿Estás SEGURO que querés eliminar el producto <span className="font-extrabold text-red-600">"{productoAEliminar.nombre}"</span>?
               </p>
             </div>
 
@@ -142,7 +141,7 @@ const GestionProductos = () => {
                 onClick={handleEliminar}
                 className="flex-1 px-4 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors duration-200 shadow-md"
               >
-                Sí, Eliminar Permanentemente
+                Eliminar
               </button>
             </div>
           </div>
@@ -163,3 +162,4 @@ const GestionProductos = () => {
 };
 
 export default GestionProductos;
+
