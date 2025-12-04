@@ -1,4 +1,3 @@
-
 import { useContext, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useProductosContext } from "../context/ProductosContext";
@@ -85,9 +84,7 @@ const ProductoDetalle = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"> 
-      {/* Contenido Principal */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mt-10">
-        {/* Columna Izquierda la de Imagen */}
         <div className="flex items-start justify-center">
           <div className="w-full max-w-lg">
             <div className="bg-gray-100 rounded-lg overflow-hidden aspect-square flex items-center justify-center">
@@ -100,28 +97,24 @@ const ProductoDetalle = () => {
           </div>
         </div>
 
-        {/* Columna Derecha la de Info de producto */}
         <div className="flex flex-col">
           <div className="mb-6">
             <h1 className="text-xl sm:text-4xl font-bold text-gray-900 mb-3">
               {producto.nombre}
             </h1>
             
-            {/* Categoria */}
             {producto.categoria && (
               <span className="inline-block bg-gray-200 text-gray-700 text-sm font-medium px-3 py-1 rounded-full mb-4">
                 {producto.categoria}
               </span>
             )}
 
-            {/* Precio */}
             <div className="mb-6">
               <p className="text-4xl font-bold text-gray-900">
                 ${producto.precio?.toLocaleString('es-AR')}
               </p>
             </div>
 
-            {/* Descripción */}
             <div className="mb-8">
               <h2 className="text-lg font-semibold text-gray-900 mb-2">Descripción</h2>
               <p className="text-gray-700 leading-relaxed">
@@ -130,9 +123,7 @@ const ProductoDetalle = () => {
             </div>
           </div>
 
-          {/* Selector de cantidad y boton de compra */}
           <div className="mt-auto border-t border-gray-200 pt-6">
-            {/* Botones de agregar a carrito y verlo */}
             <div className="flex flex-col sm:flex-row gap-3">
               <button 
                 onClick={handleAgregarAlCarrito}
@@ -166,7 +157,6 @@ const ProductoDetalle = () => {
         </div>
       </div>
 
-      {/* Boton volver en celular */}
       <div className="mt-8 lg:hidden">
         <button 
           onClick={() => navigate(-1)}
@@ -181,5 +171,6 @@ const ProductoDetalle = () => {
     </div>
   );
 };
+
 
 export default ProductoDetalle;
