@@ -56,7 +56,7 @@ const GestionProductos = () => {
       
       {productos.length === 0 ? (
         <div className="bg-white border border-gray-200 rounded-xl p-12 text-center shadow-lg">
-          <p className="text-gray-600 text-xl font-medium">No hay productos cargados. ¡Comenzá a agregarlos!</p>
+          <p className="text-gray-600 text-xl font-medium">No hay productos cargados.</p>
         </div>
       ) : (
         <div className="space-y-4">
@@ -162,4 +162,5 @@ const GestionProductos = () => {
 };
 
 export default GestionProductos;
+
 
