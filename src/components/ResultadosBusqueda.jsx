@@ -45,11 +45,12 @@ const Busqueda = () => {
               ))}
             </>
           ) : (
-            <p>No hay productos que coincidan con la búsqueda.</p>
+            <p>No hay productos que coincidan con tu búsqueda.</p>
           )}
       </div>
     </div>
   );
 };
+
 
 export default Busqueda;
