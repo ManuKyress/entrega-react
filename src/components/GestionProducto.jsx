@@ -30,7 +30,7 @@ const GestionProductos = () => {
   };
 
   const confirmarEliminacion = (producto) => {
-    setProductoAEliminar(producto);
+    setProductoAEliminar(producto); 
   };
 
   const handleEliminar = () => {
@@ -126,7 +126,7 @@ const GestionProductos = () => {
             
             <div className="mb-8">
               <p className="text-gray-700">
-                ¿Estás SEGURO que querés eliminar el producto <span className="font-extrabold text-red-600">"{productoAEliminar.nombre}"</span>?
+                ¿Estás **seguro** que querés eliminar el producto <span className="font-extrabold text-red-600">"{productoAEliminar.nombre}"</span>?
               </p>
             </div>
 
@@ -141,7 +141,7 @@ const GestionProductos = () => {
                 onClick={handleEliminar}
                 className="flex-1 px-4 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors duration-200 shadow-md"
               >
-                Eliminar
+                Sí, Eliminar Permanentemente
               </button>
             </div>
           </div>
@@ -162,5 +162,3 @@ const GestionProductos = () => {
 };
 
 export default GestionProductos;
-
-
