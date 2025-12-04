@@ -161,7 +161,6 @@ const Carrito = () => {
               <div className="border-t border-gray-200 pt-5">
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold text-gray-900">Total</span>
-                  {/* 🔑 Precio Total Destacado */}
                   <span className="text-3xl font-extrabold text-[#8005A5]">
                     ${total.toLocaleString('es-AR')}
                   </span>
@@ -172,7 +171,7 @@ const Carrito = () => {
             <button 
               className="w-full bg-[#8005A5] text-white py-3 px-4 rounded-full text-lg font-bold shadow-xl transition-all duration-300 hover:bg-purple-900 hover:scale-[1.01]"
             >
-              Proceder al Pago
+              Pagar
             </button>
             
           </div>
@@ -183,3 +182,4 @@ const Carrito = () => {
 };
 
 export default Carrito;
+
